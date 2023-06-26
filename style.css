@@ -1,0 +1,128 @@
+body{
+    background-image: url(https://i.ibb.co/HtfMdJS/bg.webp);
+    margin: 0;
+    height: 110vh;
+
+}
+
+header{
+    padding: 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logobox{
+   
+    display: inline-block;
+    width: 150px;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+.navbar{
+  
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    
+   
+}
+
+.navbar>a{
+    color: white;
+    text-decoration: none;
+    padding:  30px;
+    font-size: large;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.navbar>a:hover{
+    color: salmon;
+}
+
+#homie{
+    color: salmon;
+}
+
+.heading{
+    color: salmon;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative; 
+    width: 500px;
+    top:60px;
+    left:70px;
+}
+
+.heading+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    width: 500px;
+    left: 70px;   
+}
+
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    width: 750px;
+    left: 70px;
+    font-size: x-large;
+    top: 20px;
+}
+
+.btn{
+    width: 150px;
+    padding: 20px;
+    border: 2px solid salmon;
+    background-color: salmon;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative;
+    left:70px;
+    font-weight: 600;
+    top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    color: white;
+    width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:fixed;
+    bottom: 0;
+    margin-left: 20px;
+    font-size: large;
+    font-weight: 600;
+    left: 50px;
+}
+
+footer>a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+footer>a:hover{
+    background-color:salmon;
+    color: black;
+}
+
